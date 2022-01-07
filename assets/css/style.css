@@ -94,3 +94,124 @@ header{
 .header-button-one,.header-button-two:hover{
     opacity: 90%;
 }
+.JS-diamond{
+    display: flex;
+    justify-content: center;
+    padding: 0 30px;
+    background: #222 linear-gradient(
+135deg,transparent,rgba(0,0,0,.7));
+}
+.section-one-images{
+    width: 80px;
+    height: 80px;
+    padding: 40px 10px 40px 10px;
+}
+.flex-section{
+    padding: 30px 40px 20px 40px;
+}
+.section-one-paragraph{
+    font-size: 27px;
+    font-weight: 600;
+    color: #e6e6e6;
+    line-height: 1.5;
+    margin-bottom: 23px;
+    text-align: center;
+}
+section{
+    font-family: sans-serif;
+    background-color: #0A57A3;
+}
+.section-one-link{
+    font-size: 27px;
+    font-weight: 600;
+    color: #e6e6e6;
+    line-height: 1.5;
+    margin-bottom: 23px;
+    text-align: center;
+}
+.section-one-link:hover{
+    color: white;
+}
+.tweet{
+    background: #fff;
+    border-radius: 10px;
+    color: #222;
+    line-height: 1.4;
+    width: 353px;
+    padding: 16px;
+    height: 224px;
+}
+.twitter-image{
+    width: 24px;
+    height: 24px;
+    margin-left: 140px;
+    cursor: pointer;
+}
+.tweet-top{
+    display: flex;
+}
+.tweet-image{
+    width: 49px;
+    height: 49px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.flex-section-two{
+    padding: 0 30px;
+    margin: 0 35px;
+}
+.tweet-name{
+    font-size: 16px;
+    color: black;
+    line-height: 1.4;
+    font-weight: 700;
+    text-decoration: none;
+}
+.tweet-handle{
+    font-size: 14px;
+    color: #8A8A8A;
+    line-height: 1.4;
+    text-decoration: none;
+}
+.tweet-link{
+    display: flex;
+    flex-direction: column;
+}
+.tweet-body{
+    margin: 10px 0;
+}
+.tweet-paragraph{
+    line-height: 23.8px;
+    color: rgb(34, 34, 34);
+    font-size: 17px;
+    width: 90%;
+}
+.tweet-body-a{
+    color: #1da1f2;
+    text-decoration: none;
+    font-size: 17px;
+}
+.tweet-timestamp{
+    color: #8a8a8a;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.tweet-bottom{
+    border-top: 1px solid #ccc;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.tweet-body-a:hover{
+    text-decoration: underline;
+}
+.tweet-name:hover{
+    text-decoration: underline;
+}
+.tweet-timestamp:hover{
+    text-decoration: underline;
+}
+.section-two{
+    display: flex;
+    justify-content: space-around;
+}
