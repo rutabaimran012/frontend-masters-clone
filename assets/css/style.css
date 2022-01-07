@@ -140,6 +140,7 @@ section{
     width: 353px;
     padding: 16px;
     height: 224px;
+    margin: 10px;
 }
 .twitter-image{
     width: 24px;
@@ -166,6 +167,7 @@ section{
     line-height: 1.4;
     font-weight: 700;
     text-decoration: none;
+    width: 146%;
 }
 .tweet-handle{
     font-size: 14px;
@@ -184,7 +186,7 @@ section{
     line-height: 23.8px;
     color: rgb(34, 34, 34);
     font-size: 17px;
-    width: 90%;
+    width: 101%;
 }
 .tweet-body-a{
     color: #1da1f2;
@@ -254,6 +256,7 @@ body{
     padding: 40px 30px;
     margin: 0 74px;
     text-align: center;
+    background-image: url('https://static.frontendmasters.com/assets/fm/js/static/bc-ad-bg.5d061b025d.png')
 }
 .section-three-paragraph{
     font-size: 16px;
@@ -269,3 +272,88 @@ body{
 .section-three-link:hover{
     opacity: 80%;
 }
+footer{
+    padding: 50px 0 70px 0;
+    background-color: black;
+}
+.app-store-image{
+    width: 135px;
+    height: 45px;
+    margin: 10px 10px 10px 0;
+}
+.footer-icons{
+    width: 35px;
+    height: 35px;
+    padding: 17px 5px 0 0;
+}
+.footer-links{
+    margin-left: 373px;
+    margin-top: -36px;
+}
+.footer-images-and-icons{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.google-play-image{
+    width: 166px;
+    height: 64px;
+}
+.footer-email-link{
+    font-size: 14px;
+    color: #DD625E;
+    text-decoration: none;
+}
+.footer-paragraph{
+    color: #8A8A8A;
+    font-size: 14px;
+}
+.footer-last-paragraph{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+.email-link{
+    margin-left: 1000px;
+    padding-bottom: 10px;
+}
+.footer-email-link:hover{
+    text-decoration: underline;
+    opacity: 80%;
+}
+.footer-last-link{
+    color: #8A8A8A;
+    font-size: 14px;
+    text-decoration: none;
+}
+.footer-last-link:hover{
+    text-decoration: underline;
+}
+.tweet-one{
+    background: #fff;
+    border-radius: 10px;
+    color: #222;
+    line-height: 1.4;
+    width: 353px;
+    padding: 16px;
+    height: 175px;
+    margin: 10px;
+}
+.tweet-two{
+    background: #fff;
+    border-radius: 10px;
+    color: #222;
+    line-height: 1.4;
+    width: 353px;
+    padding: 16px;
+    height: 254px;
+    margin: 10px;
+}
+.tweet-paragraph-one{
+    line-height: 23.8px;
+    color: rgb(34, 34, 34);
+    font-size: 17px;
+    width: 94%;
+}
+
