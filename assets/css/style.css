@@ -215,3 +215,57 @@ section{
     display: flex;
     justify-content: space-around;
 }
+.section-two-heading{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 600;
+    color: #e6e6e6;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+body{
+    font-family: sans-serif;
+}
+.join-now{
+    padding: 40px 30px;
+    margin: 0 375px;
+}
+.section-two-button{
+    padding: 20px;
+    margin:0 108px;
+    font-size: 30px;
+    line-height: 1.25;
+    background: #c94f17;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    width: 324px;
+    cursor: pointer;
+}
+.section-two-button:hover{
+    opacity: 90%;
+}
+.bootcamp-image{
+    width: 240px;
+    height: auto;
+    opacity: 1;
+}
+.section-three{
+    padding: 40px 30px;
+    margin: 0 74px;
+    text-align: center;
+}
+.section-three-paragraph{
+    font-size: 16px;
+    color: #E6E6E6;
+    width: 35%;
+    margin: 16px 0 16px 377px;
+}
+.section-three-link{
+    font-size: 16px;
+    color: #DD625E;
+    margin: 16px 0;
+}
+.section-three-link:hover{
+    opacity: 80%;
+}
