@@ -49,3 +49,48 @@ nav{
 .nav-button:hover{
      opacity: 90%;
 }
+header{
+    font-family: sans-serif;
+    padding: 40px 30px 40px 30px;
+    margin: 0 75px 0 75px;
+}
+.header-heading-one{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 42px;
+}
+.header-heading-two{
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 42px;
+}
+.header-button-one{
+    background-color: #c02d28;
+    font-size: 19px;
+    border: none;
+    border-radius: 40px;
+    color: #fff;
+    line-height: 1.25;
+    text-align: center;
+    cursor: pointer;
+    padding: 20px 30px 20px 30px;
+    margin-left: 339px;
+    margin-top: 26px;
+}
+.header-button-two{
+    font-size: 19px;
+    border: none;
+    border-radius: 40px;
+    color: #fff;
+    line-height: 1.25;
+    text-align: center;
+    cursor: pointer;
+    padding: 20px 30px 20px 30px;
+    background: #c94f17;
+    margin-left: 5px;
+}
+.header-button-one,.header-button-two:hover{
+    opacity: 90%;
+}
