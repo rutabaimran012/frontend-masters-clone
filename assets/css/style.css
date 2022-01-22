@@ -3,7 +3,7 @@
     padding: 0%;
 }
 nav{
-    background: rgb(97 11 11 / 86%);
+    background: #650603;
     padding: 10px 0;
     font-family: sans-serif;
     font-size: 16px;
@@ -23,7 +23,7 @@ nav{
     line-height: 40px;
     padding: 0 10px 0 10px;
     text-decoration: none;
-    color: #dd625e;
+    color: #AAAAAA;
     font-weight: 100;
 }
 .NAV-LINKS{
@@ -186,7 +186,7 @@ section{
     line-height: 23.8px;
     color: rgb(34, 34, 34);
     font-size: 17px;
-    width: 101%;
+    width: 301px;
 }
 .tweet-body-a{
     color: #1da1f2;
@@ -224,17 +224,23 @@ section{
     color: #e6e6e6;
     line-height: 1.5;
     margin-bottom: 30px;
+    width: 37%;
+    margin-left: 452px;
+    margin-top: -27px;
 }
 body{
     font-family: sans-serif;
 }
 .join-now{
-    padding: 40px 30px;
-    margin: 0 375px;
+    padding: 200px 59px 170px 0px;
+    background-image: url('https://static.frontendmasters.com/assets/fm/js/static/bg2.c89a0cad3a.jpg');
+    width: 105%;
+    background-position: center;
+    background-size: cover;
 }
 .section-two-button{
     padding: 20px;
-    margin:0 108px;
+    margin-left: 556px;
     font-size: 30px;
     line-height: 1.25;
     background: #c94f17;
@@ -254,15 +260,15 @@ body{
 }
 .section-three{
     padding: 40px 30px;
-    margin: 0 74px;
     text-align: center;
-    background-image: url('https://static.frontendmasters.com/assets/fm/js/static/bc-ad-bg.5d061b025d.png')
+    background-image: url('https://static.frontendmasters.com/assets/fm/js/static/bc-ad-bg.5d061b025d.png');
+    background-color: #2d2121;
 }
 .section-three-paragraph{
     font-size: 16px;
     color: #E6E6E6;
-    width: 35%;
-    margin: 16px 0 16px 377px;
+    width: 31%;
+    margin: 16px 0 16px 460px;
 }
 .section-three-link{
     font-size: 16px;
@@ -340,6 +346,16 @@ footer{
     height: 175px;
     margin: 10px;
 }
+.tweet-three{
+    background: #fff;
+    border-radius: 10px;
+    color: #222;
+    line-height: 1.4;
+    width: 353px;
+    padding: 16px;
+    height: 254px;
+    margin: 10px;
+}
 .tweet-two{
     background: #fff;
     border-radius: 10px;
@@ -351,6 +367,13 @@ footer{
     margin: 10px;
 }
 .tweet-paragraph-one{
+    line-height: 23.8px;
+    color: rgb(34, 34, 34);
+    font-size: 17px;
+    width: 94%;
+}
+
+.tweet-paragraph-two{
     line-height: 23.8px;
     color: rgb(34, 34, 34);
     font-size: 17px;
