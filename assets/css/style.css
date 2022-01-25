@@ -14,7 +14,7 @@ nav{
 .frontend-masters-image{
     width: 250px;
     height: 40px;
-    margin-top: 3px;
+    margin-bottom: -5px;
     font-weight: 400;
     margin-left: 101px;
 }
@@ -52,13 +52,22 @@ nav{
 header{
     font-family: sans-serif;
     padding: 40px 30px 40px 30px;
-    margin: 0 75px 0 75px;
+    margin: 0 75px 0 0
 }
 .header-heading-one{
     font-size: 50px;
     text-align: center;
     font-weight: 600;
     line-height: 42px;
+    position: relative;
+    overflow: hidden;
+    min-height: 60vh;
+}
+.header__video{
+    position: absolute;
+    top: 0%;
+    min-width: 100%;
+    z-index: -1;
 }
 .header-heading-two{
     font-size: 32px;
@@ -280,12 +289,12 @@ body{
 }
 footer{
     padding: 50px 0 70px 0;
-    background-color: black;
+    background-color: #111111;
 }
 .app-store-image{
     width: 135px;
     height: 45px;
-    margin: 10px 10px 10px 0;
+    margin: 10px 10px 0 0;
 }
 .footer-icons{
     width: 35px;
@@ -294,7 +303,7 @@ footer{
 }
 .footer-links{
     margin-left: 373px;
-    margin-top: -36px;
+    margin-top: -33px;
 }
 .footer-images-and-icons{
     display: flex;
@@ -305,6 +314,7 @@ footer{
 .google-play-image{
     width: 166px;
     height: 64px;
+    margin-bottom: -9px;
 }
 .footer-email-link{
     font-size: 14px;
@@ -314,15 +324,16 @@ footer{
 .footer-paragraph{
     color: #8A8A8A;
     font-size: 14px;
+    margin-top: -6px;
 }
 .footer-last-paragraph{
     display: flex;
     justify-content: space-between;
-    margin: 0 100px;
+    margin: 9px 100px;
 }
 .email-link{
     margin-left: 1000px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
 }
 .footer-email-link:hover{
     text-decoration: underline;
