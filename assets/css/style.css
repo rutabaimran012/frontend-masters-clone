@@ -11,14 +11,14 @@ nav{
     display: flex;
     justify-content: space-between;
 }
-.frontend-masters-image{
+.frontendmasters__image{
     width: 250px;
     height: 40px;
     margin-bottom: -5px;
     font-weight: 400;
     margin-left: 101px;
 }
-.nav-links{
+.nav__links{
     font-size: 16px;
     line-height: 40px;
     padding: 0 10px 0 10px;
@@ -26,11 +26,11 @@ nav{
     color: #AAAAAA;
     font-weight: 100;
 }
-.NAV-LINKS{
+.nav__toplinks{
     padding: 6px;
     margin-right: 81px;
 }
-.nav-button{
+.nav__button{
     background: #c02d28;
     font-size: 16px;
     border-radius: 40px;
@@ -43,10 +43,10 @@ nav{
     text-align: center;
     cursor: pointer;
 }
-.nav-links:hover{
+.nav__links:hover{
     color: white;
 }
-.nav-button:hover{
+.nav__button:hover{
      opacity: 90%;
 }
 header{
